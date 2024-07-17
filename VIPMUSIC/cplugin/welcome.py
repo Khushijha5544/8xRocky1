@@ -207,9 +207,9 @@ async def greet_new_member(
                 pic, user.first_name, member.chat.title, user.id, user.username
             )
             button_text = "๏ ᴠɪᴇᴡ ɴᴇᴡ ᴍᴇᴍʙᴇʀ ๏"
-            add_button_text = "๏ ᴋɪᴅɴᴀᴘ ᴍᴇ ๏"
+            add_button_text = "๏ ᴅᴇᴠ ๏"
             deep_link = f"{user.id}"
-            add_link = f"https://t.me/TG_VC_BOT?startgroup=true"
+            add_link = f"https://t.me/its_ur_dev"
             temp.MELCOW[f"welcome-{member.chat.id}"] = await client.send_photo(
                 member.chat.id,
                 photo=welcomeimg,
