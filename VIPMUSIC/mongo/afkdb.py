@@ -1,6 +1,5 @@
 from VIPMUSIC.utils.mongo import db
 
-
 afkdb = db.afk
 
 
