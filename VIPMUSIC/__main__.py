@@ -50,7 +50,9 @@ async def init():
                 HELPABLE[imported_module.__MODULE__.lower()] = imported_module
 
     LOGGER("VIPMUSIC.plugins").info("𝐀𝐥𝐥 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 𝐋𝐨𝐚𝐝𝐞𝐝 𝐁𝐚𝐛𝐲🥳...")
- await userbot.start()
+ 
+await userbot.start()
+
  await VIP.start()
  await VIP.decorators()
  await restart_bots()
