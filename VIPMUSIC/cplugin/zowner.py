@@ -10,7 +10,7 @@ from VIPMUSIC.utils.database import add_served_chat_clone, get_assistant
 @Client.on_message(filters.command("repo") & filters.group)
 async def repo(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/9448f15c5b9debd6b5646.jpg",
+        photo=f"https://graph.org/file/9448f15c5b9debd6b5646.jpg",
         caption=f"""🍁𝐂𝐋𝐈𝐂𝐊🥰𝐁𝐄𝐋𝐎𝐖💝𝐁𝐔𝐓𝐓𝐎𝐍✨𝐓𝐎🙊𝐆𝐄𝐓🌱𝐑𝐄𝐏𝐎🍁""",
         reply_markup=InlineKeyboardMarkup(
             [
@@ -28,7 +28,7 @@ async def repo(client: Client, message: Message):
 async def help(client: Client, message: Message):
 
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/9448f15c5b9debd6b5646.jpg",
+        photo=f"https://graph.org/file/9448f15c5b9debd6b5646.jpg",
         caption=f"""🍁𝐂𝐋𝐈𝐂𝐊🥰𝐁𝐄𝐋𝐎𝐖💝𝐁𝐔𝐓𝐓𝐎𝐍✨𝐓𝐎🙊𝐆𝐄𝐓🌱𝐑𝐄𝐏𝐎🍁""",
         reply_markup=InlineKeyboardMarkup(
             [
@@ -45,7 +45,7 @@ async def help(client: Client, message: Message):
 @Client.on_message(filters.command("repo") & filters.private)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/9448f15c5b9debd6b5646.jpg",
+        photo=f"https://graph.org/file/9448f15c5b9debd6b5646.jpg",
         caption=f"""🍁𝐂𝐋𝐈𝐂𝐊🥰𝐁𝐄𝐋𝐎𝐖💝𝐁𝐔𝐓𝐓𝐎𝐍✨𝐓𝐎🙊𝐆𝐄𝐓🌱𝐑𝐄𝐏𝐎🍁""",
         reply_markup=InlineKeyboardMarkup(
             [
