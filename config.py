@@ -81,23 +81,10 @@ AUTO_LEAVING_ASSISTANT = False
 
 # Auto Gcast/Broadcast Handler, Write:- [On / Off] During Hosting, Dont Do
 # anything here.)
-AUTO_GCAST = os.getenv("AUTO_GCAST", "On")
+AUTO_GCAST = os.getenv("AUTO_GCAST", "off")
 
 # Auto Broadcast Message That You Want Use In Auto Broadcast In All Groups.
-AUTO_GCAST_MSG = getenv("AUTO_GCAST_MSG", "𝖧𝖾𝗅𝗅𝗈 𝖥𝗋𝗂𝖾𝗇𝖽𝗌 𝖠𝗋𝖾 𝖸𝗈𝗎 𝖫𝗈𝗈𝗄𝗂𝗇𝗀 𝖥𝗈𝗋 𝖺 𝖢𝗁𝖺𝗍𝗍𝗂𝗇𝗀 𝖦𝗋𝗈𝗎𝗉..??
-
-🌙 𝖧𝖾𝗋𝖾 𝖸𝗈𝗎 𝖢𝖺𝗇 𝖬𝖾𝖾𝗍 𝖭𝖾𝗐 𝖯𝖾𝗈𝗉𝗅𝖾 𝖺𝗌 𝗐𝖾𝗅𝗅 𝖺𝗌 :-
-       𝟐𝟒 𝐱 𝟕 𝖢𝗁𝖺𝗍𝗍𝗂𝗇𝗀 💸
-       𝖬𝖺𝗄𝖾 𝖭𝖾𝗐 𝖥𝗋𝗂𝖾𝗇𝖽s 🐝
-       𝖤𝗇𝗃𝗈𝗒 𝖵𝖼/𝖲𝗈𝗇𝗀𝗌 🥂
-       
-
-𝖩𝗈𝗂𝗇 𝖮𝗎𝗋 𝖢𝗁𝖺𝗍𝗍𝗂𝗇𝗀 𝖦𝗋𝗈𝗎𝗉 :
-https://t.me/+0oLx7Rvk_EU1MDNl
-
-https://t.me/+0oLx7Rvk_EU1MDNl
-
-https://t.me/+0oLx7Rvk_EU1MDNl")
+AUTO_GCAST_MSG = getenv("AUTO_GCAST_MSG", "")
 
 # Get this credentials from https://developer.spotify.com/dashboard
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", "19609edb1b9f4ed7be0c8c1342039362")
