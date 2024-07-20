@@ -27,4 +27,4 @@ Spotify = SpotifyAPI()
 Resso = RessoAPI()
 Telegram = TeleAPI()
 YouTube = YouTubeAPI()
-APP = "tg_vc_bot"  # connect music api key "Dont change it"
+APP = "Friendship143_Robot"  # connect music api key "Dont change it"
